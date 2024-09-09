@@ -1,0 +1,11 @@
+Add Practice Task:
+- uuid
+- pick category
+- add description
+	- preset category or custom
+	- title
+	- subtitle
+	- description
+	- notes
+- set duration
+- optional: frequency (weekly/biweek/y daily etc)
