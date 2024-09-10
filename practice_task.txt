@@ -1,4 +1,4 @@
-Add Practice Task:
+Practice Task:
 - uuid
 - pick category
 - add description
@@ -7,5 +7,16 @@ Add Practice Task:
 	- subtitle
 	- description
 	- notes
+
+Practice Task container:
+- uuid
+- task:PracticeTask
+- set tempo
 - set duration
 - optional: frequency (weekly/biweek/y daily etc)
+
+Practice Routine:
+- uuid
+- active: boolean
+- dateRange: active from - until
+- 6 x task: PracticeTask []
